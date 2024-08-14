@@ -1,0 +1,22 @@
+{
+    "name": "pamee/pestanas",
+    "description": "Proyecto pestanas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "pamelaespinoza16",
+            "email": "jeniuptrep@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
